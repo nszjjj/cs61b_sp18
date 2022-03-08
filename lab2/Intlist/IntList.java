@@ -103,6 +103,9 @@ public class IntList {
         //TODO:  fill in method
         IntList C = new IntList();
         IntList r = C;
+        if(A == null && B == null){
+            return null;
+        }
         if(A != null){
             IntList p = A;
             r.first = p.first;
